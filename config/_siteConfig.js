@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Hometown Industries',
-  tagline: 'Your one stop shop for Amazon solutions',
+  tagline: 'Test the push to netlify',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
