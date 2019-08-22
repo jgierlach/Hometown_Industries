@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Hometown Industries',
-  tagline: 'Test the push to netlify',
+  siteName: 'Do you want more sales online?',
+  tagline: 'Fill out our short intake form for a free consultation',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
