@@ -20,6 +20,7 @@
     </div>
   </article>
 </template>
+
 <script>
 import NewsLetterForm from '~/components/NewsLetterForm'
 export default {
@@ -44,6 +45,7 @@ export default {
   }
 }
 </script>
+
 <style lang="scss" scoped>
 .subscribe-form-wrapper {
   z-index: 3;

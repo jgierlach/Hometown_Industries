@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Do you want more sales online?',
   tagline: 'Fill out our short intake form for a free consultation',
-  featureImage: '/uploads/home-hero.jpg',
+  featureImage: '/uploads/internet-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
