@@ -3,7 +3,7 @@ title: Our New Tool To Simplify Keyword Entry
 subtitle: Will be a great time saver for  our team going forward.
 category:
   - About Awake
-author: Sven Magnus
+author: Jan Gierlach
 date: 2019-08-21T21:45:15.162Z
 featureImage: /uploads/keywords.jpg
 ---
