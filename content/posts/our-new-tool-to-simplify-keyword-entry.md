@@ -1,9 +1,9 @@
 ---
-title: Our New Tool To Simplify Keyword Entry
-subtitle: Will be a great time saver for  our team going forward.
+title: Our Tool To Simplify Amazon Keyword Entry
+subtitle: We built our own tool to streamline Amazon keyword entry.
 category:
   - About Awake
-author: Jan Gierlach
+author: Sven Magnus
 date: 2019-08-21T21:45:15.162Z
 featureImage: /uploads/keywords.jpg
 ---
