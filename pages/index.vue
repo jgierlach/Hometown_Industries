@@ -1,12 +1,13 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <button
-        class="button is-primary"
-        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
+      <a
+        href="https://docs.google.com/forms/d/1EGi6MQ-vGU0H4Jhh9W37qDapJaeNmZSnvw_k4NJtl0U/viewform?edit_requested=true"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Free Consultation
-      </button>
+        <button class="button is-primary">Free Consultation</button>
+      </a>
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>

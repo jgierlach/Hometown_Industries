@@ -1,49 +1,19 @@
 <template>
   <div>
-    <form
-      target="_blank"
-      method="post"
-      :action="formAction"
-      @submit="$emit('submit', email)"
-    >
-      <div class="field has-addons is-fullwidth">
-        <p class="control has-icons-left">
-          <input
-            v-model="email"
-            class="input"
-            type="email"
-            name="EMAIL"
-            placeholder="Email"
-          />
-          <span class="icon is-small is-left">
-            <font-awesome-icon icon="envelope" />
-            <i class="fas fa-envelope"></i>
-          </span>
-        </p>
-        <div class="control">
-          <button type="submit" class="button is-primary">
-            {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
-          </button>
-        </div>
-      </div>
-    </form>
+    <div class="has-text-centered">
+      <a
+        href="https://docs.google.com/forms/d/1EGi6MQ-vGU0H4Jhh9W37qDapJaeNmZSnvw_k4NJtl0U/viewform?edit_requested=true"
+      >
+        <button class="button is-primary">
+          {{ $siteConfig.newsletter.btnText || 'Subscribe' }}
+        </button>
+      </a>
+    </div>
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      email: ''
-    }
-  },
-  computed: {
-    formAction() {
-      if (this.$siteConfig.newsletter.mailchimp.on) {
-        return this.$siteConfig.newsletter.mailchimp.formAction
-      }
-      return this.$siteConfig.newsletter.other.formAction
-    }
-  }
+<style scoped>
+a {
+  text-decoration: none;
 }
-</script>
+</style>
