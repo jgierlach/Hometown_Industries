@@ -1,10 +1,15 @@
 <template>
-  <form>
+  <form action="https://formspree.io/jegierlach@gmail.com" method="POST">
     <!-- Name -->
     <div class="field">
       <label class="label is-medium">Name</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="email" placeholder="John Smith" />
+        <input
+          class="input is-medium"
+          type="text"
+          name="name"
+          placeholder="John Smith"
+        />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -17,6 +22,7 @@
         <input
           class="input is-medium"
           type="email"
+          name="email"
           placeholder="you@email.com"
         />
         <span class="icon is-small is-left">
@@ -30,7 +36,8 @@
       <div class="control has-icons-left">
         <input
           class="input is-medium"
-          type="email"
+          type="text"
+          name="subject"
           placeholder="Brief Summary"
         />
         <span class="icon is-small is-left">
@@ -44,13 +51,15 @@
       <div class="control">
         <textarea
           class="textarea"
+          type="text"
+          name="message"
           placeholder="Detailed description of your comment, request, etc"
           rows="8"
         ></textarea>
       </div>
     </div>
     <div class="control">
-      <button class="button is-primary">
+      <button class="button is-primary" type="submit">
         Contact Us
       </button>
     </div>
