@@ -7,13 +7,11 @@
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
-        <!-- <div class="tile is-ancestor"> -->
         <div class="is-8">
           <article class="tile is-child box">
             <contact-form />
           </article>
         </div>
-        <!-- </div> -->
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">Latest Posts</h3>
