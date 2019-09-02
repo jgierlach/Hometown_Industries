@@ -14,7 +14,9 @@
         </div>
       </template>
       <template v-slot:sidebar>
-        <h3 class="subtitle is-4">Latest Posts</h3>
+        <h3 class="subtitle is-4">
+          Latest Posts
+        </h3>
         <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
       </template>
