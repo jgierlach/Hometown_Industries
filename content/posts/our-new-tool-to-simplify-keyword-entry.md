@@ -45,7 +45,7 @@ Amazon lays out specific rules for how keywords should be entered into this fiel
 
 There is so much ground work involved in properly getting a new listing created and launched, but after manually formatting keywords about 30 times it felt like a step in the process that could to some degree be automated.
 
-We made this [tool](https://amazon-keyword-formatter.herokuapp.com/index.html). Take all the keywords from our master list above, and simply drop them into the input field. When you click the button all the comments in the parentheses are removed and the text is parsed to be formatted to Amazon's exact requirements.
+We made this **[tool](https://amazon-keyword-formatter.herokuapp.com/index.html)**. Take all the keywords from our master list above, and simply drop them into the input field. When you click the button all the comments in the parentheses are removed and the text is parsed to be formatted to Amazon's exact requirements.
 
 If you use my above keywords as a sample input you should see something that looks exactly the same as this.
 
