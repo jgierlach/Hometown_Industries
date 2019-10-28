@@ -15,7 +15,7 @@
         :key="`${x}-r`"
         :src="`/logo-frames/logo-f${frames - x}.svg`"
       /> -->
-      <img src="../assets/uploads/site_logo.png" />
+      <img src="../assets/uploads/site-logo.svg" />
     </div>
   </div>
 </template>

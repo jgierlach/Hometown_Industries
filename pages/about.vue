@@ -21,9 +21,7 @@
             promises shortly before taking your hard earned money and delivering
             next to nothing.
           </p>
-          <p>We don’t promise things we can’t deliver.</p>
-          <p>We don’t compromise our values.</p>
-          <p>And we don’t work with assholes.</p>
+          <p>We don’t promise things we can’t deliver, and We don’t compromise our values.</p>
           <p>
             We have a passion for helping people like us. People with drive,
             ambition, and a passion for what they do.
@@ -34,8 +32,9 @@
             you’ve come to the right place.
           </p>
           <p>
-            Reach out to us with any questions you have or fill out our intake
-            form and we’ll be in touch.
+            Reach out to us with any
+            <strong><nuxt-link to="/contact"> questions </nuxt-link></strong>you
+            have or fill out our intake form and we’ll be in touch.
           </p>
         </div>
       </template>
