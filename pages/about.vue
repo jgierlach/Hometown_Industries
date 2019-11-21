@@ -21,7 +21,10 @@
             promises shortly before taking your hard earned money and delivering
             next to nothing.
           </p>
-          <p>We don’t promise things we can’t deliver, and We don’t compromise our values.</p>
+          <p>
+            We don’t promise things we can’t deliver, and we don’t compromise
+            our values.
+          </p>
           <p>
             We have a passion for helping people like us. People with drive,
             ambition, and a passion for what they do.
